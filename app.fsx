@@ -7,8 +7,8 @@ Paket.Dependencies.Install (System.IO.File.ReadAllText "paket.dependencies")
 
 //---------------------------------------------------------------------
 
-#I "packages/Suave/lib/net471"
-#r "packages/Suave/lib/net471/Suave.dll"
+#I "packages/Suave/lib/net45"
+#r "packages/Suave/lib/net45/Suave.dll"
 
 open System
 open Suave                 // always open suave
